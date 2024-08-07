@@ -1,0 +1,39 @@
+.text-box > h3:first-child{
+    color: pink
+}
+
+#greycol{
+    color: gray;
+}
+
+div + div > p{
+    color: red;
+}
+
+div + h3 + p{
+    color: green;
+}
+
+.yellow{
+    color: yellow;
+}
+
+.weekdays > li:first-child{
+    color: blue;
+}
+
+ul > li:nth-child(2):hover{
+    color: green;
+}
+
+ul > li:nth-child(3):focus{
+    color: aqua;
+}
+
+.weekdays > li:nth-child(4):disabled{
+    font-style: italic;
+}
+
+.weekdays > li:last-child{
+    color: bisque;
+}
